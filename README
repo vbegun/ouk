@@ -1,0 +1,19 @@
+I decided to start a new project and named it "OUK". Ouk stands for
+Oracle Utilities Kit.
+
+Ouk is also is a letter of the early Cyrillic alphabet
+http://en.wikipedia.org/wiki/Ouk
+
+The collection of utility scripts has two primary purposes: it would
+help to establish, hopefully, a good stash of scripts, which can be
+useful for Oracle develpers and administrators as well as to illustrate
+somewhat proper coding and usage practice of Oracle SQL*Plus -- the
+most simple (yet powerful) tool one can use to develop projects and
+manage an Oracle database.
+
+All utility scripts, code snippets, ideas on algorithms, data access
+and processing imply NO WARRANTY and can be used "AS IS" with appropriate
+credits. :-)
+
+Vladimir Begun
+http://vbegun.blogspot.com/search/label/oracle
