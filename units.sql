@@ -25,7 +25,7 @@ SELECT '' AS "1", '' AS "2", '' AS "3", '' AS "4"
   FROM dual
  WHERE ROWNUM = 0
 /
-COLUMN script NEW_VALUE u_____script
+COLUMN u_____script NEW_VALUE u_____script
 SELECT COALESCE(
          REGEXP_SUBSTR(
            TRIM(SYS_CONTEXT('USERENV', 'MODULE'))
@@ -33,7 +33,7 @@ SELECT COALESCE(
          , 1, 1, 'i', 3
          )
        , 'units.sql'
-       ) script
+       ) u_____script
   FROM dual
 /
 VAR u_____f VARCHAR2(256)
@@ -208,3 +208,8 @@ SELECT :u_____n
 /
 UNDEFINE 1 2 3 4 u_____script u_____dd u_____hh u_____mi
 UNDEFINE u_____ss u_____cs u_____ms u_____us u_____ua
+COLUMN u_____script CLEAR
+COLUMN 1 CLEAR
+COLUMN 2 CLEAR
+COLUMN 3 CLEAR
+COLUMN 4 CLEAR
